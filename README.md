@@ -41,7 +41,7 @@ curl "http://127.0.0.1:5000/add_post?nickname=NoSuchUser&text=HelloWorld"
 curl http://127.0.0.1:5000/get_user_posts?nickname=Pavel
 > []
 
-curl http://127.0.0.1:5000/get_user_posts?nickname=Pavel
+curl http://127.0.0.1:5000/get_user_posts?nickname=Irina
 > [
     "HelloWorld", 
     "HelloWorld2"
